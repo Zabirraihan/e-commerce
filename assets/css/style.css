@@ -194,9 +194,92 @@ ul{
 }
 /* // middle    section end  */
 /*  nav left section start  */
+.navbar_menu{
+    padding: 25px 0;
+}
 .nav_left_section img{
-    width: 40px;
+    width: 30px;
     display: inline-block;
 }
+.nav_left_section ul.dropdown-menu.dropdown_list{
+    width: 473px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.nav_left_section ul.dropdown-menu.dropdown_list li{
+    width: 40%;
+    border: 1px solid var(--border-color);
+    margin: 20px 20px;
+}
+.nav_left_section .dropdown_list{
+    opacity: 0;
+}
+.nav_left_section .show{
+    opacity: 1;
+}
+.nav_left_section{
+    height: 88px;
+    width: 234px;
+    background-color: var(--hlt-color);
+}
+.nav_left_section ul.navbar-nav > li > a{
+    font-size: 16px;
+    color: var(--white);
+    font-family: var(--quicksand);
+    font-weight: 600;
+    background-color: var(--hlt-color);
+    padding: 32px  31px;
+    display: inline-block;
 
+}
+.nav_left_section ul.dropdown-menu.dropdown_list li a{
+    font-size: 14px;
+    color: var(--heading-color);
+    font-family: var(--quicksand);
+    font-weight: 600;
+    display: inline-block;
+    transition: all linear 0.5s;
+}
+.nav_left_section ul.dropdown-menu.dropdown_list li:hover > a{
+    color: var(--hlt-color);
+}
+.nav_left_section ul.dropdown-menu.dropdown_list li a img{
+    margin: 5px 5px 5px 0;
+}
 /* // nav left section end  */
+/*  middle nav section start  */
+.middle_navbar > ul > li{
+    margin: 0 14px;
+    padding: 10px 0;
+}
+.middle_navbar .nav_item{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 0 0 40px;
+}
+.middle_navbar >ul > li > a{
+    display: inline-block;
+    font-size: 16px;
+    color: var(--heading-color);
+    font-family: var(--quicksand);
+    font-weight: 600;
+}
+.middle_navbar >ul > li > ul > li > a{
+    display: inline-block;
+    font-size: 14px;
+    color: var(--contact-color);
+    font-family: var(--quicksand);
+    font-weight: 600; 
+}
+.middle_navbar >ul > li > ul > li{
+    padding: 5px 20px;
+} 
+.middle_navbar >ul > li > ul > li:nth-child(5){
+    width: 200px;
+}
+.middle_navbar >ul > li:hover ul{
+    display: block;
+} 
+/* // middle nav section end  */
