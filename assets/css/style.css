@@ -1,0 +1,202 @@
+/* 
+    Templete Name:Nest;
+    description:Grocery,ecommercy,html templet;
+    author name:Dainel;
+    version:1.0;
+    
+    templet of contents
+    =========================================
+    1)common
+
+*/
+/*  common section start  */
+:root{
+    --quicksand:'Quicksand', sans-serif;
+    --lato:'Lato', sans-serif;
+    --white:#ffffff;
+    --heading-color:#253D4E;
+    --hlt-color:#3BB77E;
+    --contact-color:#7E7E7E;
+    --num-color:#ADADAD;
+    --point-color:#B6B6B6;
+    --border-color:#dedfe2;
+}
+h1,h2,h3,h4,h5,h5,h6,
+p,
+span,
+ul,
+ol{
+margin:0;
+padding:0;
+}
+a,a:hover{
+text-decoration:none;
+}
+img{
+    display: block;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+.form-control:focus,
+.form-select:focus,
+.btn:focus{
+    box-shadow: none;
+}
+/* // common section end  */
+/*  top-header section start  */
+.top_header{
+    border-bottom: 1px solid var(--border-color);
+}
+.top_left_header{
+    padding: 0 0;   
+}
+.top_left_header ul li{
+    display:inline-block;
+    padding: 10px 20px 10px 0;
+    position: relative;
+}
+.top_left_header ul li::before{
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 1px;
+    background-color: var(--border-color);
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.top_left_header ul li:nth-child(3){
+    display:inline-block;
+    padding: 10px 20px 10px 0;
+    position: relative;
+    bottom: 10px;
+    right: 0;
+}
+
+.top_left_header ul li:last-child::before{
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 1px;
+    background:none;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.top_left_header ul li a{
+    display: inline-block;
+    font-size: 13px;
+    font-family: var(--lato);
+    color: var(--contact-color);
+    width: 50px;   
+}
+.slick_slider{
+    font-size: 14px;
+    color: var(--contact-color);
+    font-family: var(--lato);
+}
+.top_right_header .dropdown:hover ul.dropdown-menu{
+    display: block;
+}
+.top_right_header > ul > li{
+    display: inline-block;
+}
+.top_right_header ul li span,
+.top_right_header ul li a{
+    font-size: 13px;
+    font-family: var(--lato);
+    color: var(--contact-color);
+}
+.top_right_header >ul >li > span{
+    display: inline-block;
+    width: 60%;
+}
+.top_right_header >ul >li > a{
+    display: inline-block;
+    width: 30%;
+}
+.top_right_header >ul >li{
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+} 
+.top_right_header >ul >li::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 20px;
+    background-color: var(--border-color);
+    width: 1px;
+    height: 10px;
+} 
+.top_right_header >ul >li:nth-child(2),
+.top_right_header >ul >li:nth-child(3)
+{
+    position: relative;
+    bottom: 15px;
+} 
+.top_right_header >ul >li:nth-child(2)::after,
+.top_right_header >ul >li:nth-child(3)::after{
+    bottom: 7px;
+}
+/* // top-header section end  */
+/*  middle  section start  */
+.middle_header{
+    padding: 32px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+.logo img{
+    width: 80%;
+}
+.form-control,
+.form-select{
+    border: none;
+}
+.form-select option{
+    font-family: var(--quicksand);
+    color: var(--heading-color);
+    font-weight: 400;
+    font-size: 14px;
+}
+.search {
+    border: 1px solid var(--hlt-color);
+    padding: 7px 0;
+}
+.middle_right_header ul{
+    display: flex;
+}
+.middle_right_header ul li{
+    position: relative;
+    padding-right: 20px;
+}
+.middle_right_header ul li a i{
+    font-size: 25px;
+}
+.middle_right_header ul li a span{
+    position: absolute;
+    border: 1px solid var(--hlt-color);
+    background-color: var(--hlt-color);
+    color: var(--white);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: -10px;
+    left: 14px;
+    line-height: 15px;
+    text-align: center;
+}
+.middle_right_header ul li a{
+    font-size: 16px;
+    font-family: var(--lato);
+    color: var(--contact-color);
+}
+/* // middle    section end  */
+/*  nav left section start  */
+.nav_left_section img{
+    width: 40px;
+    display: inline-block;
+}
+
+/* // nav left section end  */
