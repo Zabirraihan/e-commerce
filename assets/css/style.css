@@ -205,7 +205,8 @@ ul{
 .nav_left_section ul.dropdown-menu.dropdown_list{
     width: 473px;
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    
 }
 .nav_left_section ul.dropdown-menu.dropdown_list li{
     width: 40%;
@@ -214,9 +215,11 @@ ul{
 }
 .nav_left_section .dropdown_list{
     opacity: 0;
+    visibility: hidden; 
 }
 .nav_left_section .show{
     opacity: 1;
+    visibility:visible;
 }
 .nav_left_section{
     height: 88px;
@@ -475,7 +478,7 @@ ul{
     background: var(--white);
     border-radius: 30px;
 }
-.banner_section .banner_wrapper .banner_content .input-group .form-control::placeholder{
-    padding-left: 15px;
-} 
+.banner_section .banner_wrapper .banner_content .input-group .form-control{
+    padding-left: 30px;
+}
 /* // banner  section end  */
