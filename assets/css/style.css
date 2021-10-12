@@ -388,7 +388,7 @@ ul{
 /* // nav right section end  */
 /*  banner  section start  */
 #banner{
-    padding: 30px 0;
+    padding: 30px 0 30px 0;
 }
 .banner_section .banner_wrapper{
     height: 467px;
