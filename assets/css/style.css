@@ -196,7 +196,8 @@ ul{
 /* // middle    section end  */
 /*  nav left section start  */
 .navbar_menu{
-    padding: 25px 0;
+    padding: 25px 0 25px 0;
+    border-bottom: 1px solid var(--border-color);
 }
 .nav_left_section img{
     width: 30px;
@@ -386,6 +387,9 @@ ul{
 }
 /* // nav right section end  */
 /*  banner  section start  */
+#banner{
+    padding: 30px 0;
+}
 .banner_section .banner_wrapper{
     height: 467px;
     background-position:center;
