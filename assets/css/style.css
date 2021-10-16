@@ -256,7 +256,7 @@ ul {
   border-bottom: 1px solid var(--border-color);
 }
 .sticky{
-  animation: sticky 0.4s;
+  animation: sticky 0.7s;
   position: fixed;
   top: 0;
   height: 180px;
@@ -265,7 +265,7 @@ ul {
 }
 @keyframes sticky {
   from{
-    top: 180px;
+    top: -180px;
   }
   to{
     top: 0px;
