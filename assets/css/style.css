@@ -256,7 +256,7 @@ ul {
   border-bottom: 1px solid var(--border-color);
 }
 .sticky{
-  animation: sticky 0.7s;
+  animation: sticky 0.4s;
   position: fixed;
   top: 0;
   height: 180px;

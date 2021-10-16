@@ -5,7 +5,7 @@ $(function(){
         arrows:false,
         vertical:true,
         verticalSwiping:true,
-        autoPlay:true,
+        autoplay:true,
     })
 
 
