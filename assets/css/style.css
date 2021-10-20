@@ -439,26 +439,28 @@ ul {
 .navbar_menu .nav_right i {
   font-size: 40px;
   display: inline-block;
-  padding: 20px 0;
+  padding: 30px 5px;
 }
 .navbar_menu .nav_right a {
   display: inline-block;
   font-size: 26px;
   color: var(--hlt-color);
   font-family: var(--quicksand);
-  font-weight: 600;
+  font-weight: 700;
+  padding: 0 10px;
 }
 .navbar_menu .nav_right span {
   display: block;
   font-size: 12px;
   font-family: var(--lato);
   color: var(--contact-color);
-  margin: 0 45px;
+  margin: 0 10px;
   width: 70px;
 }
 .navbar_menu {
   border-bottom: 1px solid var(--border-color);
 }
+
 /* // nav right section end  */
 /*  banner  section start  */
 #banner {
