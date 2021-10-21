@@ -800,9 +800,12 @@ ul {
 #popular_products .author a{
   color: var(--hlt-color);
 }
+#popular_products .price {
+  padding: 20px 0;
+}
 #popular_products .price h4,
 #popular_products .price small,
-#popular_products .price a{
+#popular_products .price .buy_link{
   display: inline-block;
 }
 #popular_products .price h4{
@@ -810,16 +813,24 @@ ul {
   font-family: var(--quicksand);
   color: var(--hlt-color);
   padding: 0 10px 0 0;
+  width: 20%;
 }
 #popular_products .price small{
+  display: inline-block;
   text-decoration: line-through;
   font-size: 14px;
   font-family: var(--quicksand);
   font-weight: 700;
   color: var(--num-color);
-  padding: 0 0px 0 0;
+  padding: 0 0px 0 15px;
+  width: 20%;
+}
+#popular_products .price .buy_link{
+  width: 55%;
+  text-align: right;
 }
 #popular_products .price a {
+  display: inline-block;
   font-size: 14px;
   font-family: var(--lato);
   font-weight: 400;
@@ -827,10 +838,15 @@ ul {
   background-color: var(--bg-clr);
   padding: 8px 25px;
   border-radius: 5px;
+  transition: var(--t-4s);
 }
 #popular_products .price:hover a{
   background-color: var(--hlt-color);
   color: var(--white);
 } 
-
 /* // popualr produt section end  */
+/*  daily best section start  */
+.nav_border{
+  border: none;
+}
+/* // daily best section end  */
