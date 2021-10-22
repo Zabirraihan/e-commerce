@@ -16,7 +16,7 @@ $(function(){
 
     $(window).on("scroll",function(){
         var sticky = $(window).scrollTop();
-        if(sticky > 180){
+        if(sticky > 2000){
             $(".navbar_menu").addClass("sticky")
         }else{
             $(".navbar_menu").removeClass("sticky")
@@ -37,4 +37,12 @@ $(function(){
         prevArrow: '<i class="fas fa-long-arrow-alt-right  slider_icon featured_icon_left"></i>',
         nextArrow: '<i class="fas fa-long-arrow-alt-left slider_icon  featured_icon_right"></i>',
     })
+
+    // daily best item
+    $('.daily_best_item').slick({
+        slidesToShow: 4,
+        autoplay:true,
+        nextArrow:'<i class="fas fa-chevron-right slider_icon arrow_right"></i>',
+        prevArrow:'<i class="fas fa-chevron-left slider_icon arrow_left"></i>,'
+    });
 })
