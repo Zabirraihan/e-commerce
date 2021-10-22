@@ -278,25 +278,25 @@ ul {
   width: 30px;
   display: inline-block;
 }
-.nav_left_section ul.dropdown-menu.dropdown_list {
+.nav_left_section ul.dropdown-menu.dropdown_item1{
   width: 473px;
   display: flex;
   flex-wrap: wrap;
 }
-.nav_left_section ul.dropdown-menu.dropdown_list li {
+.nav_left_section ul.dropdown-menu.dropdown_item1 li {
   width: 40%;
   border: 1px solid var(--border-color);
   margin: 20px 20px;
 }
-.nav_left_section .dropdown_list {
+.dropdown_item1 {
   opacity: 0;
   visibility: hidden;
 }
-.nav_left_section .show {
+.show {
   opacity: 1;
-  visibility: visible;
+  visibility:visible;
 }
-.nav_left_section {
+.nav_left_section { 
   height: 88px;
   width: 234px;
   background-color: var(--hlt-color);
@@ -310,7 +310,7 @@ ul {
   padding: 32px 31px;
   display: inline-block;
 }
-.nav_left_section ul.dropdown-menu.dropdown_list li a {
+.nav_left_section ul.dropdown-menu.dropdown_item1 li a {
   font-size: 14px;
   color: var(--heading-color);
   font-family: var(--quicksand);
@@ -318,10 +318,10 @@ ul {
   display: inline-block;
   transition: all linear 0.5s;
 }
-.nav_left_section ul.dropdown-menu.dropdown_list li:hover > a {
+.nav_left_section ul.dropdown-menu.dropdown_item1 li:hover > a {
   color: var(--hlt-color);
 }
-.nav_left_section ul.dropdown-menu.dropdown_list li a img {
+.nav_left_section ul.dropdown-menu.dropdown_item1 li a img {
   margin: 5px 5px 5px 0;
 }
 /* // nav left section end  */
@@ -848,5 +848,33 @@ ul {
 /*  daily best section start  */
 .nav_border{
   border: none;
+}
+#daily_best .daily_best_banner{
+  background-image: url(../image/banner/banner-4.png);
+  background-position: center;
+  background-size: cover;
+  height: 483px;
+}
+#daily_best .daily_best_banner{
+  padding: 60px 50px;
+}
+#daily_best .daily_best_banner h3{
+  font-size: 40px;
+  font-family: var(--quicksand);
+  font-weight: 700;
+  color: var(--heading-color);
+}
+#daily_best .daily_best_banner a{
+  display: inline-block;;
+  font-size: 12px;
+  font-family: var(--quicksand);
+  font-weight: 700;
+  color: var(--white);
+  padding: 8px 20px;
+  margin: 106px 0;
+  background-color: var(--hlt-color);
+}
+#daily_best .daily_best_banner:hover > a{
+  background-color: var(--a-color);
 }
 /* // daily best section end  */

@@ -11,7 +11,7 @@ $(function(){
 
     /* nav section js */
     $('.dropdown_item').on('click',function(){
-        $('.dropdown_list').addClass('.show')
+        $('.dropdown_item1').addClass('.show')
     })
 
     $(window).on("scroll",function(){
