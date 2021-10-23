@@ -27,6 +27,7 @@
   --bg-clr:#DEF9EC;
   --t-clr:#67BCEE;
   --t-clr2:#F59758;
+  --bg-clr2:#F74B81;
   --t-4s: all linear 0.4s;
 }
 h1,
@@ -264,7 +265,6 @@ ul {
   animation: sticky 0.7s;
   position: fixed;
   top: 0;
-  height: 180px;
   z-index: 999;
   background-color: var(--white);
 }
@@ -889,7 +889,8 @@ ul {
 }
 #daily_best .popular_size{
   border-radius: 5px;
-  /* width: 20%; */
+  width: 20%;
+  padding: 0px 15px;
 }
 #daily_best .popular_item {
   border: 1px solid var(--border-clr);
@@ -1090,4 +1091,22 @@ ul {
   background-color: var(--a-color);
   color: var(--white);
 } 
+#daily_best .bg-clr3{
+  background-color: var(--bg-clr2);
+}
+#daily_best .text.clr{
+  background: var(--t-clr);
+}
+#daily_best .text.clr1{
+  background-color: var(--hlt-color);
+}
+#daily_best .text.clr2{
+  background-color: var(--t-clr2);
+}
+#daily_best ul li:nth-child(1) a{
+  color: var(--hlt-color);
+}
+#daily_best ul li:nth-child(3) a{
+  color: var(--heading-color);
+}
 /* // daily best section end  */
