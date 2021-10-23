@@ -31,7 +31,7 @@ $(function () {
   //featured categories slick
   $(".featured_categories_slider").slick({
     slidesToShow: 10,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     prevArrow:
       '<i class="fas fa-long-arrow-alt-right  slider_icon featured_icon_left"></i>',
     nextArrow:
