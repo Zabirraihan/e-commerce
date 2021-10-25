@@ -1219,3 +1219,115 @@ ul {
 }
 
 /* // deals section end  */
+/*  top selling section start  */ 
+#top_selling{
+  padding: 150px 0 0 0;
+}
+#top_selling .top_heading h3{
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--quicksand);
+  color: var(--heading-color);
+  padding-bottom: 25px;  
+  position: relative;
+}
+#top_selling .top_heading h3::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: var(--border-clr);
+  bottom: 0px;
+  left: 0;
+}
+#top_selling .top_heading h3::before{
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 1px;
+  background-color: var(--hlt-color);
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+#top_selling .selling_item_inner{
+  margin: 30px 0;
+  transition: var(--t-4s);
+}
+#top_selling .selling_item_inner:hover{
+  transform: translateY(-10px);
+}
+#top_selling .selling_thum{
+  margin: auto 0;
+}
+#top_selling .selling_item_content h4{
+  font-size: 16px;
+  font-family: var(--quicksand);
+  font-weight: 700;
+  color: var(--heading-color);
+  padding: 0 0 0 0;
+  transition: var(--t-4s);
+}
+#top_selling .selling_item_content h4:hover{
+  color: var(--hlt-color);
+}
+#top_selling .selling{
+  padding: 0px 0 10px 0;
+}
+#top_selling .selling i{
+  display: inline-block;
+  font-size: 10px;
+  color: var(--a-color);
+}
+#top_selling .selling p{
+  display: inline-block;
+  font-size: 14px;
+  font-family: var(--lato);
+  color: var(--point-color);
+}
+#top_selling .add_shop h4,
+#top_selling .add_shop small{
+  display: inline-block;
+}
+#top_selling .add_shop h4{
+  font-size: 18px;
+  font-family: var(--quicksand);
+  font-weight: 700;
+  color: var(--hlt-color);
+  padding: 0 10px 0 0;
+} 
+#top_selling .add_shop small{
+  font-size: 14px;
+  font-family: var(--lato);
+  font-weight: 700;
+  color: var(--num-color);
+} 
+/* // top selling section end  */ 
+/*  banner section start  */
+#banner .banner_wrapper.banner_item{
+  background-image: url(../image/banner/banner-10.png);
+  height: 527px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#banner .banner_thum img{
+  position: absolute;
+  width: 540px;
+  right: 0;
+  bottom: 0;
+}
+#banner .text h4,
+#banner .text h3{
+  font-size: 40px;
+  font-family: var(--quicksand);
+  font-weight: 700;
+  color: var(--heading-color);
+}
+#banner .text h2{
+  font-size: 18px;
+}
+#banner .text h2 span{
+  color: var(--hlt-color);
+}
+/* // banner section end  */
