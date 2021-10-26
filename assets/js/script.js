@@ -19,8 +19,19 @@ $(function () {
     } else {
       $(".navbar_menu").removeClass("sticky");
     }
+    // back to top
+    if (sticky > 2000) {
+      $("#back").show();
+    } else {
+      $("#back").hide();
+    }
   });
-
+  //back to top
+  $("#back").on("click", function () {
+    $("html,body").animate({
+      scrollTop: 0,
+    });
+  });
   // banner slick slider
   $(".banner_section").slick({
     autoplay: true,
@@ -31,7 +42,7 @@ $(function () {
   //featured categories slick
   $(".featured_categories_slider").slick({
     slidesToShow: 10,
-    slidesToScroll:1,
+    slidesToScroll: 1,
     prevArrow:
       '<i class="fas fa-long-arrow-alt-right  slider_icon featured_icon_left"></i>',
     nextArrow:
@@ -58,5 +69,9 @@ $(function () {
       );
     });
   });
-});
 
+  //preloader
+  $(window).on("load", function () {
+    $("#gif").fadeOut(2000);
+  });
+});
