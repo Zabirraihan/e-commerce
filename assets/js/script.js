@@ -47,6 +47,16 @@ $(function () {
       '<i class="fas fa-long-arrow-alt-right  slider_icon featured_icon_left"></i>',
     nextArrow:
       '<i class="fas fa-long-arrow-alt-left slider_icon  featured_icon_right"></i>',
+    responsive:[
+      {
+        breakpoint:1200,
+        settings:{
+          slidesToShow:4,
+          slidesToScroll:1,
+          
+        }
+      }
+    ]  
   });
 
   // daily best item
@@ -55,6 +65,16 @@ $(function () {
     autoplay: true,
     nextArrow: '<i class="fas fa-chevron-right slider_icon arrow_right"></i>',
     prevArrow: '<i class="fas fa-chevron-left slider_icon arrow_left"></i>,',
+    responsive:[
+      {
+        breakpoint:1200,
+        settings:{
+          slidesToShow:3,
+          slidesToScroll:1,
+          
+        }
+      }
+    ]
   });
 
   // deals section countdown

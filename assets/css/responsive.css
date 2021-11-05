@@ -1,3 +1,86 @@
-/*     common section start  */
-
-/* / / common section end / / */
+@media (min-width: 1200px){
+    #popular_products .popular_size {
+        border-radius: 5px;
+        width: 20%;
+      }
+    #service .service_item {
+        width: 20%;
+    }  
+}
+/*     large section start  */
+@media (min-width: 992px) and (max-width:1199.98px){
+    .middle_navbar > ul > li:first-child > a {
+        display: none;
+        visibility: hidden;
+      }
+      .middle_navbar > ul > li:nth-child(9) > a {
+        display: none;
+        visibility: hidden;
+      }
+      .middle_navbar > ul > li:nth-child(5) > a {
+        display: none;
+        visibility: hidden;
+      }
+      .top_right_header > ul > li {
+        padding-right: 5px;
+        padding-left: 0px;
+    }
+    .banner_section .banner_wrapper .banner_content h1, .banner_section .banner_wrapper .banner_content h3 {
+        font-size: 50px;
+    }
+    .banner_section .banner_wrapper .banner_content h2 {
+        font-size: 25px;
+    }
+    .banner_section .banner_wrapper .banner_content .subscribe {
+        width: 400px;
+    }
+    #featured_categories .featured_categories_content h4 {
+        font-size: 16px;
+    }
+    #featured_categories .featured_categories_content p {
+        font-size: 14px;
+        font-family: var(--lato);
+        color: var(--contact-color);
+    }
+    #featured_categories .section_tittle h3 {
+        padding: 0px 71px 0 0;
+        width: 40%;
+    }
+    #featured_categories
+    .list_details{
+        width: 35%;
+    }
+    #featured_categories .fetaured_categories_thum {
+        padding: 10px 70px;
+    }
+    #product .product_content h3 {
+        font-size: 18px;
+    }
+    #product .product_content a {
+        font-size: 10px;
+        padding: 5px 10px;
+        margin: 20px 0;
+    }
+    .section_tittle ul li {
+        padding: 0 16px 0 0px;
+    }
+    #popular_products .popular_product_container .col-lg-4:last-child{
+        display: none;
+        visibility: hidden;
+    }
+    #daily_best .daily_best_banner h3 {
+        font-size: 35px;
+    }
+    #top_selling {
+        padding: 0px 0 0 0;
+        margin: -125px 0 0 0;
+    }
+    #deals .deals_wrapper .col-lg-3:last-child{
+        opacity:0;
+        visibility: hidden;
+    }
+    #deals .deals_wrapper .col-lg-3{
+        width: calc(100% / 3);
+    }
+}    
+/* / / large section end / / */

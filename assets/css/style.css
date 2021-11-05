@@ -190,7 +190,7 @@ ul {
 .top_right_header > ul > li::after {
   position: absolute;
   content: "";
-  right: 0;
+  right: -25px;
   bottom: 20px;
   background-color: var(--border-color);
   width: 1px;
@@ -308,7 +308,6 @@ ul {
 .nav_left_section {
   height: 88px;
   width: 234px;
-  background-color: var(--hlt-color);
 }
 .nav_left_section ul.navbar_nav > li > a {
   font-size: 16px;
@@ -607,8 +606,8 @@ ul {
 }
 #product .product_content {
   position: absolute;
-  left: 50px;
-  top: 60px;
+  left: 10%;
+  top: 20%;
 }
 #product .product_content h3 {
   font-size: 24px;
@@ -646,10 +645,6 @@ ul {
 /*  popualr produt section start  */
 #popular_products ul.nav.nav-tabs {
   border: none;
-}
-#popular_products .popular_size {
-  border-radius: 5px;
-  width: 20%;
 }
 #popular_products .popular_item {
   border: 1px solid var(--border-clr);
@@ -833,7 +828,7 @@ ul {
   width: 20%;
 }
 #popular_products .price .buy_link {
-  width: 55%;
+  width: 50%;
   text-align: right;
 }
 #popular_products .price a {
@@ -843,7 +838,7 @@ ul {
   font-weight: 400;
   color: var(--hlt-color);
   background-color: var(--bg-clr);
-  padding: 8px 25px;
+  padding: 8px 15px;
   border-radius: 5px;
   transition: var(--t-4s);
 }
@@ -1144,13 +1139,12 @@ ul {
 #deals .price small,
 #deals .price .buy_link {
   display: inline-block;
+  width: calc(90% / 3);
 }
 #deals .price h4 {
   font-size: 18px;
   font-family: var(--quicksand);
-  color: var(--hlt-color);
-  padding: 0 50px 0 0;
-  width: 20%;
+  color: var(--hlt-color); 
 }
 #deals .price small {
   display: inline-block;
@@ -1159,8 +1153,6 @@ ul {
   font-family: var(--quicksand);
   font-weight: 700;
   color: var(--num-color);
-  padding: 0 0px 0 15px;
-  width: 20%;
 }
 #deals .price p {
   font-size: 13px;
@@ -1174,8 +1166,6 @@ ul {
   padding: 0px 0 10px 0;
 }
 #deals .buy_link {
-  width: 55%;
-  margin: 0px 0 10px 0;
   border-radius: 5px;
   transition: var(--t-4s);
 }
@@ -1186,8 +1176,11 @@ ul {
   font-weight: 700;
   background: var(--bg-clr);
   color: var(--hlt-color);
-  padding: 5px 20px;
+  padding: 5px 12px;
   transition: var(--t-4s);
+}
+#deals .buy_link a i{
+  display: inline-block;
 }
 #deals .buy_link:hover a {
   background-color: var(--hlt-color);
@@ -1334,9 +1327,6 @@ ul {
 }
 /* // banner section end  */
 /*  service section start  */
-#service .service_item {
-  width: 20%;
-}
 #service .service_wrapper {
   background-color: var(--bg-clr3);
   border-radius: 10px;
@@ -1513,6 +1503,7 @@ ul {
 #contact .contact_info i,
 #contact .contact_info1 i {
   font-size: 26px;
+  color: var(--bs-gray);
 }
 #contact .contact_info span,
 #contact .contact_info1 span {
