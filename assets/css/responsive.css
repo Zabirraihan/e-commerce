@@ -301,5 +301,11 @@
     #footer {
         padding: 25px 0 0 0;
     }
+    .featured_icon_left {
+        top: -50px;
+    }
+    .featured_icon_right {
+        top: -50px;
+    }
 } 
 /* // mobile device section end  */
